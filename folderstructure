@@ -1,0 +1,22 @@
+portfolio/
+├── public/
+│ └── Dip_Resume.pdf ← your resume file
+├── src/
+│ ├── components/
+│ │ ├── NavBar.jsx
+│ │ ├── Hero.jsx
+│ │ ├── Projects.jsx
+│ │ ├── ProjectCard.jsx
+│ │ ├── Skills.jsx
+│ │ ├── SkillGroup.jsx
+│ │ ├── Contact.jsx
+│ │ └── Footer.jsx
+│ ├── data/
+│ │ ├── projects.js ← all project data in one place
+│ │ └── skills.js ← all skills data in one place
+│ ├── App.jsx
+│ ├── index.css
+│ └── main.jsx
+├── tailwind.config.js
+├── vite.config.js
+└── package.json

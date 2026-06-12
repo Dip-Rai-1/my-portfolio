@@ -1,1 +1,41 @@
 @import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap");
+
+@theme {
+  --color-bg-primary: #0d0d14;
+  --color-bg-secondary: #12121f;
+  --color-bg-card: #1a1a2e;
+
+  --color-accent-primary: #534ab7;
+  --color-accent-light: #7f77dd;
+  --color-accent-lighter: #afa9ec;
+  --color-accent-dark: #3c3489;
+
+  --color-border-default: #1e1e2e;
+  --color-border-accent: #2a2a4e;
+
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #6b7280;
+  --color-text-accent: #afa9ec;
+
+  --color-green: #1d9e75;
+  --color-amber: #ba7517;
+  --color-red: #e24b4a;
+
+  --color-code-purple: #afa9ec;
+  --color-code-teal: #5dcaa5;
+}
+
+@layer base {
+  body {
+    font-family: "Inter", sans-serif;
+    background-color: var(--color-bg-primary);
+  }
+}
+
+@layer components {
+  /* reusable classes */
+  .vars {
+    color: teal;
+  }
+}
